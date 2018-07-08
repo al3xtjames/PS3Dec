@@ -1,0 +1,33 @@
+build/
+
+# Visual Studio files
+.vs/
+.vscode/
+*.ipch
+*.vspx
+*.psess
+*.VC.*
+*.vcxproj.user
+enc_temp_folder/*
+CMakeSettings.json
+
+# CMake
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Debug/
+Release/
+Testing/
+Makefile
+.ninja_deps
+.ninja_log
+build.ninja
+rules.ninja
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# macOS
+.DS_Store
