@@ -1,3 +1,4 @@
 [submodule "external/mbedtls"]
 	path = external/mbedtls
 	url = https://github.com/ARMmbed/mbedtls
+	ignore = dirty

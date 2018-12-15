@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(PS3Dec LANGUAGES C)
+project(PS3Dec C)
 
 # Default to Release builds
 if (NOT CMAKE_BUILD_TYPE)
@@ -14,6 +14,9 @@ set(CMAKE_C_EXTENSIONS OFF)
 
 # Avoid deprecated CMake syntax
 set(CMAKE_WARN_DEPRECATED ON)
+
+# Add CMake modules
+list(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake")
 
 # Add external libraries
 add_subdirectory(external)

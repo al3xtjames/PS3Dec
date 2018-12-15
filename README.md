@@ -41,7 +41,8 @@ Changes since r4:
  - CMake
  - [Ninja](https://ninja-build.org/) (optional)
 
-On macOS, libomp must be installed (available in Homebrew).
+On macOS, libomp must be installed (available in Homebrew). The bundled version
+of mbedTLS will be used if it is not installed.
 
 ### Compilation
 #### Windows
